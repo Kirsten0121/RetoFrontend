@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+}
+
+a{
+    text-decoration: none;
+}
+a:focus{
+    color:#4285f4;
+}

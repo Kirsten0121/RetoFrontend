@@ -1,0 +1,16 @@
+<div><br>
+<mat-card class="account" *ngFor="let item of items | async">
+        <mat-card-header>
+        <div >
+        <mat-card-title >{{item.name}}</mat-card-title>
+        <mat-card-subtitle>{{item.type}}</mat-card-subtitle>
+        <mat-card-subtitle>{{item.acnumber}}</mat-card-subtitle>
+        </div>
+        <div class="filler"></div>
+        <div class="der">
+            <mat-card-subtitle class="monto">{{item.money}}</mat-card-subtitle>
+            <mat-card-subtitle class="estado">{{item.status}}</mat-card-subtitle>
+        </div>
+        </mat-card-header>
+</mat-card>
+</div>

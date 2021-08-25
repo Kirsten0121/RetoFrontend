@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "reto1frontendbm": {
+      "hosting": {
+        "reto1-frontend-bm": [
+          "reto1frontendbm"
+        ]
+      }
+    }
+  }
+}

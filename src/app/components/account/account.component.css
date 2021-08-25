@@ -1,0 +1,21 @@
+.account {
+    margin: 2%;
+    margin-bottom: 0%;
+    padding-left: 0%;
+}
+.der {
+    align-self: flex-end;
+    padding-right: 2%;
+}
+.filler{
+    display: flex;
+    flex-grow: 1;
+}
+.estado{
+    color: #00C851;
+}
+
+.monto {
+    font-size: medium;
+    color: #4285F4;
+}

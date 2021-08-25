@@ -1,0 +1,40 @@
+<div class="container">
+<mat-accordion >
+  <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Cuenta origen
+      </mat-panel-title>
+      <mat-panel-description>
+
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <mat-selection-list [multiple]="false" >
+        <mat-list-option *ngFor="let item of items | async" >
+            <p>{{item.name}}</p>
+            <p>{{item.money}}</p>
+        </mat-list-option>
+    </mat-selection-list>
+  </mat-expansion-panel>
+</mat-accordion>
+<mat-accordion >
+  <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Cuenta destino
+      </mat-panel-title>
+      <mat-panel-description>
+
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <mat-selection-list [multiple]="false">
+        <mat-list-option *ngFor="let item of items | async">
+            <p>{{item.name}}</p>
+            <p>{{item.money}}</p>
+        </mat-list-option>
+    </mat-selection-list>
+  </mat-expansion-panel>
+</mat-accordion>
+</div>
